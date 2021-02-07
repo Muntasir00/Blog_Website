@@ -1,0 +1,4 @@
+{% extends "blog/base.html" %} {% load blog_tags %} {% block title %} Search {% endblock %} {% block content %} {% if query %}
+<h1>Posts Containing "{{ query }}"</h1>
+<h3></h3>
+{% endblock %}
